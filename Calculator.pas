@@ -8,8 +8,8 @@ writeln('2 Number Calculator By Batzd Rats, Press Enter To Begin'); readln;
 writeln('x = '); readln(x);
 writeln('y = '); readln(y);
 writeln('Choose The Calculation Sign : ');
-writeln('1,Plus   2,Minus   3,Multiply   4,Divide   5, Exponential X');
-writeln('6,Exponential Y');
+writeln('1,Plus   2,Minus   3,Multiply   4,Divide   5, Square X');
+writeln('6,Square Y');
 readln(calcsign);
 case calcsign of
 1:writeln('x + y = ',x+y);
